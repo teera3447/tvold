@@ -1,346 +1,68 @@
-<!doctype html>
-<html lang="th">
+<html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TV — เปิด Player เครื่อง</title>
-<style>
-*{box-sizing:border-box}body{margin:0;padding:14px;background:#111821;color:#f4f6fa;font-family:Arial,sans-serif}
-h1{font-size:22px}p{color:#bdc8d6;line-height:1.55;font-size:14px}
-h2{font-size:17px;margin:22px 0 8px}.channel{background:#202c39;border-radius:8px;padding:12px;margin:7px 0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
-.name{font-weight:bold}.actions{display:flex;gap:7px;flex-wrap:wrap}a{padding:9px 10px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:bold}
-.launch{background:#078d70;color:white}.direct{background:#3a4655;color:white}footer{font-size:12px;color:#bdc8d6;line-height:1.6;margin-top:22px}
-</style>
+<meta name="viewport" content="width=device-width">
+<title>TV</title>
 </head>
 <body>
-<h1>ทีวีออนไลน์</h1>
-<p>ลองกด “เปิด Player เครื่อง” ก่อน เพื่อส่งลิงก์ไปยังแอปที่ระบบเลือกให้ หากไม่ทำงานให้ลอง “ลิงก์ตรง”</p>
-<section><h2>ทีวีดิจิทัล</h2>
-        <div class="channel">
-          <span class="name">5HD</span>
-          <div class="actions">
-            <a class="launch" href="intent://nodelive.thaitv5hd.com/hls/tv5hdlive-for-thaitv5hdcom/master.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://nodelive.thaitv5hd.com/hls/tv5hdlive-for-thaitv5hdcom/master.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Thai PBS</span>
-          <div class="actions">
-            <a class="launch" href="intent://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">NBT</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-edge.iiptvcdn.com/live_event/smil:1180-0c9c-ad1f-4e5d-aa48.smil/playlist.m3u8?null#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-edge.iiptvcdn.com/live_event/smil:1180-0c9c-ad1f-4e5d-aa48.smil/playlist.m3u8?null">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Workpoint</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">GMM25</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chgmmchannel-3/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chgmmchannel-3/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">ช่อง 8</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/cheight-3/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/cheight-3/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">MCOT</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chmcothd-3/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chmcothd-3/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Amarin</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chamarin-2/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chamarin-2/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">7HD</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/ch7hd-2/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/ch7hd-2/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">PPTV</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chpptv-2/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chpptv-2/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">T Sport</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chtsport-2/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chtsport-2/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Nation</span>
-          <div class="actions">
-            <a class="launch" href="intent://live-us1.thaimomo.com/live-as/chNation-3/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live-us1.thaimomo.com/live-as/chNation-3/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">ONE</span>
-          <div class="actions">
-            <a class="launch" href="intent://live888.gstreamcdn.com/app/one_udp2/ts:master.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live888.gstreamcdn.com/app/one_udp2/ts:master.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">MONOMAX Sports</span>
-          <div class="actions">
-            <a class="launch" href="intent://live888.gstreamcdn.com/app/mono29_bk/ts:master.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live888.gstreamcdn.com/app/mono29_bk/ts:master.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">True4U</span>
-          <div class="actions">
-            <a class="launch" href="intent://trxx.tadioplus.workers.dev/true24.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://trxx.tadioplus.workers.dev/true24.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">3HD</span>
-          <div class="actions">
-            <a class="launch" href="intent://three.tadioplus.workers.dev/ch3.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://three.tadioplus.workers.dev/ch3.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">TNN</span>
-          <div class="actions">
-            <a class="launch" href="intent://trxx.tadioplus.workers.dev/tnnth.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://trxx.tadioplus.workers.dev/tnnth.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Thairath</span>
-          <div class="actions">
-            <a class="launch" href="intent://rxth.tadioplus.workers.dev/thairath-proxy.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://rxth.tadioplus.workers.dev/thairath-proxy.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div></section>
-<section><h2>ข่าว</h2>
-        <div class="channel">
-          <span class="name">Truth TV 75</span>
-          <div class="actions">
-            <a class="launch" href="intent://lb1-live-mv.v2h-cdn.com/partner/mvtv_part/mvtv.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://lb1-live-mv.v2h-cdn.com/partner/mvtv_part/mvtv.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">NHK World</span>
-          <div class="actions">
-            <a class="launch" href="intent://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">CNA</span>
-          <div class="actions">
-            <a class="launch" href="intent://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">NBT World</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div></section>
-<section><h2>บันเทิง / การ์ตูน</h2>
-        <div class="channel">
-          <span class="name">ไทบ้านทีวี</span>
-          <div class="actions">
-            <a class="launch" href="intent://lb1-live-mv.v2h-cdn.com/partner/thaibaan_part/thaibaan.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://lb1-live-mv.v2h-cdn.com/partner/thaibaan_part/thaibaan.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Thai Chai Yo</span>
-          <div class="actions">
-            <a class="launch" href="intent://live.thaichaiyo.tv/tcy/live-480P.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live.thaichaiyo.tv/tcy/live-480P.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Top TV</span>
-          <div class="actions">
-            <a class="launch" href="intent://live.cool-channel.com/cool/live-480P.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://live.cool-channel.com/cool/live-480P.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Channel8</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-th-vip.livestreaming.in.th/ch8/ch8/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-th-vip.livestreaming.in.th/ch8/ch8/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Boomerang</span>
-          <div class="actions">
-            <a class="launch" href="intent://lb1-live-mv.v2h-cdn.com/partner/boom_part/boomreang.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://lb1-live-mv.v2h-cdn.com/partner/boom_part/boomreang.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">Mango Mojito</span>
-          <div class="actions">
-            <a class="launch" href="intent://lb1-live-mv.v2h-cdn.com/partner/boom_cartoon_part/boom_catoon.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://lb1-live-mv.v2h-cdn.com/partner/boom_cartoon_part/boom_catoon.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div></section>
-<section><h2>การศึกษา DLTV</h2>
-        <div class="channel">
-          <span class="name">DLTV 1</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv01.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv01.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 2</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv02.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv02.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 3</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv03.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv03.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 4</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv04.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv04.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 5</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv05.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv05.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 6</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv06.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv06.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 7</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv07.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv07.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 8</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv08.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv08.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 9</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv09.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv09.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 10</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv10.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv10.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 11</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv11.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv11.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 12</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv12.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv12.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 13</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv13.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv13.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 14</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv14.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv14.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">DLTV 15</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-live.dltv.ac.th/dltv15.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-live.dltv.ac.th/dltv15.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div></section>
-<section><h2>อื่น ๆ</h2>
-        <div class="channel">
-          <span class="name">Police TV</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">RAMA Channel</span>
-          <div class="actions">
-            <a class="launch" href="intent://ramach.ddns.net/live/ramalive/index.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://ramach.ddns.net/live/ramalive/index.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div>
-        <div class="channel">
-          <span class="name">SBB TV</span>
-          <div class="actions">
-            <a class="launch" href="intent://cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8#Intent;scheme=https;action=android.intent.action.VIEW;type=video/*;end">เปิด Player เครื่อง</a>
-            <a class="direct" href="https://cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8">ลิงก์ตรง</a>
-          </div>
-        </div></section>
-<footer>หมายเหตุ: ปุ่มเปิด Player ใช้ Android VIEW Intent แบบทั่วไป ไม่ล็อกไว้กับ VLC หากระบบ MocorDroid/เบราว์เซอร์ไม่รองรับ Intent นี้ อาจไม่มีอะไรเกิดขึ้นหรือกลับไปดาวน์โหลดลิงก์ตรง</footer>
-</body></html>
+<h3>ทดสอบเปิด Player จาก Opera Mini</h3>
+<p><a href="vnd.youtube:dQw4w9WgXcQ">ทดสอบส่งวิดีโอไปยังแอปภายนอก (YouTube protocol)</a></p>
+<p>หมายเหตุ: ลิงก์นี้ใช้ทดสอบการส่งต่อจาก Opera Mini เท่านั้น ไม่ใช่ช่องทีวี และไม่ได้รับประกันว่าจะเปิด Player ได้</p>
+<hr>
+<h3>ทีวีดิจิทัล</h3>
+<p><a href="https://nodelive.thaitv5hd.com/hls/tv5hdlive-for-thaitv5hdcom/master.m3u8">5HD</a></p>
+<p><a href="https://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8">Thai PBS</a></p>
+<p><a href="https://cdn-edge.iiptvcdn.com/live_event/smil:1180-0c9c-ad1f-4e5d-aa48.smil/playlist.m3u8?null">NBT</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8">Workpoint</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chgmmchannel-3/playlist.m3u8">GMM25</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/cheight-3/playlist.m3u8">ช่อง 8</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chmcothd-3/playlist.m3u8">MCOT</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chamarin-2/playlist.m3u8">Amarin</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/ch7hd-2/playlist.m3u8">7HD</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chpptv-2/playlist.m3u8">PPTV</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chtsport-2/playlist.m3u8">T Sport</a></p>
+<p><a href="https://live-us1.thaimomo.com/live-as/chNation-3/playlist.m3u8">Nation</a></p>
+<p><a href="https://live888.gstreamcdn.com/app/one_udp2/ts:master.m3u8">ONE</a></p>
+<p><a href="https://live888.gstreamcdn.com/app/mono29_bk/ts:master.m3u8">MONOMAX Sports</a></p>
+<p><a href="https://trxx.tadioplus.workers.dev/true24.m3u8">True4U</a></p>
+<p><a href="https://three.tadioplus.workers.dev/ch3.m3u8">3HD</a></p>
+<p><a href="https://trxx.tadioplus.workers.dev/tnnth.m3u8">TNN</a></p>
+<p><a href="https://rxth.tadioplus.workers.dev/thairath-proxy.m3u8">Thairath</a></p>
+
+<h3>ข่าว</h3>
+<p><a href="https://lb1-live-mv.v2h-cdn.com/partner/mvtv_part/mvtv.m3u8">Truth TV 75</a></p>
+<p><a href="https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8">NHK World</a></p>
+<p><a href="https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8">CNA</a></p>
+<p><a href="https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8">NBT World</a></p>
+
+<h3>บันเทิง / การ์ตูน</h3>
+<p><a href="https://lb1-live-mv.v2h-cdn.com/partner/thaibaan_part/thaibaan.m3u8">ไทบ้านทีวี</a></p>
+<p><a href="https://live.thaichaiyo.tv/tcy/live-480P.m3u8">Thai Chai Yo</a></p>
+<p><a href="https://live.cool-channel.com/cool/live-480P.m3u8">Top TV</a></p>
+<p><a href="https://cdn-th-vip.livestreaming.in.th/ch8/ch8/playlist.m3u8">Channel8</a></p>
+<p><a href="https://lb1-live-mv.v2h-cdn.com/partner/boom_part/boomreang.m3u8">Boomerang</a></p>
+<p><a href="https://lb1-live-mv.v2h-cdn.com/partner/boom_cartoon_part/boom_catoon.m3u8">Mango Mojito</a></p>
+
+<h3>การศึกษา DLTV</h3>
+<p><a href="https://cdn-live.dltv.ac.th/dltv01.m3u8">DLTV 1</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv02.m3u8">DLTV 2</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv03.m3u8">DLTV 3</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv04.m3u8">DLTV 4</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv05.m3u8">DLTV 5</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv06.m3u8">DLTV 6</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv07.m3u8">DLTV 7</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv08.m3u8">DLTV 8</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv09.m3u8">DLTV 9</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv10.m3u8">DLTV 10</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv11.m3u8">DLTV 11</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv12.m3u8">DLTV 12</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv13.m3u8">DLTV 13</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv14.m3u8">DLTV 14</a></p>
+<p><a href="https://cdn-live.dltv.ac.th/dltv15.m3u8">DLTV 15</a></p>
+
+<h3>อื่น ๆ</h3>
+<p><a href="https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8">Police TV</a></p>
+<p><a href="https://ramach.ddns.net/live/ramalive/index.m3u8">RAMA Channel</a></p>
+<p><a href="https://cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8">SBB TV</a></p>
+</body>
+</html>
